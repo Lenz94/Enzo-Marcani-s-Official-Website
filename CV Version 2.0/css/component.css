@@ -289,6 +289,14 @@
 
 @media screen and (max-width: 25em){
 	/* Let's only allow 1 item in a row now */
+
+	.clearfix{
+		font-size: 10px;
+	}
+
+	.clearfix > nav{
+		display: none;
+	}
 	.cbp-hssubmenu > li {
 		width: 100%;
 		display: block;
@@ -298,6 +306,18 @@
 		box-shadow: 0 1px #cecece;
 		text-align: left;
 	}
+
+
+	/*.cbp-hssubmenu > li a {
+		text-align: left;
+		line-height: 50px;
+		padding: 0.4em 1em;
+	}
+
+	.cbp-hssubmenu > li a img {
+		float: left;
+		max-height: 50px;
+	}*/
 
 	.cbp-hssubmenu > li a span {
 		min-height: 0;
