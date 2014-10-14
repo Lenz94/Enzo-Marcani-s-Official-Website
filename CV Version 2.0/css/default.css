@@ -169,6 +169,12 @@ a:hover {
 	content: "\e004";
 }
 
+.merommig p{
+	padding-left: 3%;
+	padding-right: 3%;
+	text-align: left;
+}
+
 @media screen and (max-width: 55em) {
 
 	.container > header h1,
