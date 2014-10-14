@@ -299,20 +299,9 @@
 		text-align: left;
 	}
 
-
-	.cbp-hssubmenu > li a {
-		text-align: left;
-		line-height: 50px;
-		padding: 0.4em 1em;
-	}
-
-	.cbp-hssubmenu > li a img {
-		float: left;
-		max-height: 50px;
-	}
-
 	.cbp-hssubmenu > li a span {
 		min-height: 0;
 		margin: 0;
+
 	}
 }
