@@ -105,7 +105,7 @@ a:hover {
 	background: #fff;
 	border-radius: 50%;
 	margin: 0 0.1em;
-	border: 4px solid #47a3da;
+	border: 4px solid #C91B16;
 }
 
 .container > header nav a > span {
@@ -114,7 +114,7 @@ a:hover {
 
 .container > header nav a:hover:before {
 	content: attr(data-info);
-	color: #47a3da;
+	color: #C91B16;
 	position: absolute;
 	width: 600%;
 	top: 120%;
@@ -124,7 +124,7 @@ a:hover {
 }
 
 .container > header nav a:hover {
-	background: #47a3da;
+	background: #C91B16;
 }
 
 .bp-icon:after {
@@ -135,7 +135,7 @@ a:hover {
 	font-variant: normal;
 	text-transform: none;
 	text-align: center;
-	color: #47a3da;
+	color: #0A4899;
 	-webkit-font-smoothing: antialiased;
 }
 
@@ -175,6 +175,20 @@ a:hover {
 	text-align: left;
 	color: #597C94;
 }
+
+.section p{
+	padding-left: 15%;
+	padding-right: 15%;
+	text-align: left;
+	color: #597C94;
+}
+.section a{
+	color: #597C94;
+}
+.section p b{
+	color: #C91B16;
+}
+
 
 @media screen and (max-width: 55em) {
 
